@@ -32,10 +32,10 @@ export default function Dashboard() {
               Your personalized academic dashboard to stay organized and succeed in your studies.
             </p>
             <div className="flex gap-4">
-              <Button variant="secondary" size="lg" asChild>
+              <Button variant="secondary" size="lg" className="border-white text-black hover:bg-white hover:text-primary" asChild>
                 <Link to="/timetable">View Timetable</Link>
               </Button>
-              <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary" asChild>
+              <Button variant="outline" size="lg" className="border-white text-black hover:bg-white hover:text-primary" asChild>
                 <Link to="/assignments">Check Assignments</Link>
               </Button>
             </div>
